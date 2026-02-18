@@ -18,6 +18,7 @@ This lab demonstrates cloud-based Identity and Access Management (IAM) using Mic
 The lab was conducted in a cloud trial environment, providing hands-on experience with modern IAM features without the need for on-premises infrastructure. Prior hands-on experience with Active Directory provided foundational knowledge of user and group management, which was applied in this cloud-based IAM lab.
 
 **Lab Tasks**
+
 **1. User and Group Management**
 
 - Created test users and groups in Entra ID
