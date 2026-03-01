@@ -102,7 +102,7 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 * Applied licenses automatically to all group members
 
 ---
-## Password Protection & Smart Lockout
+## 3. Password Protection & Smart Lockout
 
 ### View & Configure Lock Settings
 - Opened Microsoft Entra Admin Center and navigated to **Authentication methods → Password protection**
@@ -124,7 +124,41 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 - Saved configuration
 
 ---
+## 4. Self-Service Password Reset (SSPR)
+### Enable SSPR for Specific Group
+- Opened Microsoft Entra Admin Center and navigated to **Protection → Password reset**
+- Set **Self-service password enabled** to **Selected**
+- Added **Project23** group to enable SSPR for its members
+- Saved configuration
 
+---
+
+### Configure Authentication Methods
+- Selected **Authentication methods** within Password reset
+- Set **Number of methods required** to **1**
+- Enabled methods for users:  
+  - Email  
+  - Mobile phone  
+  - Mobile app code  
+- Saved changes
+
+---
+
+### Configure Registration Settings
+- Selected **Registration** within Password reset
+- Set **Require users to register when signing in** to **Yes**
+- Set **Number of days before users are asked to re-confirm** to **90**
+- Saved changes
+
+---
+
+### Configure Reset Notifications
+- Selected **Notifications** within Password reset
+- Left **Notify users on password reset** as **Yes**  
+- Set **Notify all admins when other admins reset their password** to **Yes**
+- Saved changes
+
+---
 
 
 
