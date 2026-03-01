@@ -19,6 +19,7 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 
 **Lab Tasks**
 
+**1. User Management**
 ### Create New User
 - Created a new internal user account in Microsoft Entra Admin Center
 - Configured username, display name, and profile properties
