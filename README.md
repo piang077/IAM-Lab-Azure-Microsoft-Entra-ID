@@ -26,6 +26,7 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 - Assigned appropriate roles and permissions
 
 - Verified user login and access
+- https://github.com/piang077/IAM-Lab-Azure-Microsoft-Entra-ID/blob/main/Practical%20Labs/createuser.png
 
 **2. Password Policies**
 
