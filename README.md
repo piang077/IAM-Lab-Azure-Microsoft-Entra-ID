@@ -21,13 +21,50 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 
 **1. User and Group Management**
 
-- Created test users and groups in Entra ID
+- Task 1: Create a New User
 
-- Assigned appropriate roles and permissions
+  - Logged into Microsoft Entra Admin Center
 
-- Verified user login and access
+  - Created a new internal user account
 
-# [Screenshots](https://github.com/piang077/IAM-Lab-Azure-Microsoft-Entra-ID/blob/main/Practical%20Labs/createuser.png)
+  - Set username, display name, and user details
+
+  - Enabled account and set usage location
+
+  - Logged in as the new user to confirm access and MFA setup
+- **[Screenshots](https://github.com/piang077/IAM-Lab-Azure-Microsoft-Entra-ID/tree/main/Lab1)**
+
+
+- Task 2: Assign License
+
+  - Opened Microsoft 365 Admin Center
+
+  - Selected available license (Power Automate Free)
+
+  - Assigned license to the created user
+
+- Task 3: Invite External User
+
+  - Invited a guest/external user using email
+
+  - Sent invitation message
+
+  - Added external collaborator to tenant
+
+- Task 4: Assign Roles
+
+  - Assigned Azure role to internal user
+
+  - Used role-based access control (RBAC)
+
+- Task 5: Bulk Import Users
+
+  - Downloaded CSV template
+
+  - Edited user details in file
+
+  - Uploaded CSV for bulk user creation
+
 
 **2. Password Policies**
 
