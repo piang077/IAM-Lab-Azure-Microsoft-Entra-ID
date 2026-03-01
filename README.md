@@ -69,13 +69,13 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 
 
 **2. Group Management**
-### ✅ Create Microsoft 365 Group
+### Create Microsoft 365 Group
 
 * Created group **Project23**
 * Added description and assigned membership type
 * Added internal user as member
 
-### ✅ Create Security Group (Dynamic Membership)
+### Create Security Group (Dynamic Membership)
 
 * Created **Guest Users** security group
 * Configured dynamic rule:
@@ -83,7 +83,7 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
   * `userType = Guest`
 * Automatically populated guest users
 
-### ✅ Add Users to Groups
+### Add Users to Groups
 
 * Added external user to Project23 group
 * Practised adding membership:
@@ -91,12 +91,12 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
   * From group settings
   * From user profile
 
-### ✅ Assign Group Owners
+### Assign Group Owners
 
 * Added group owner for Project23
 * Verified ownership permissions
 
-### ✅ Assign License to Group
+### Assign License to Group
 
 * Assigned Microsoft 365 license to group
 * Applied licenses automatically to all group members
