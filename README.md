@@ -19,7 +19,7 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 
 **Lab Tasks**
 
-**1. User and Group Management**
+**1. User Management**
 
 - Task 1: Create a New User
 
@@ -65,12 +65,45 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 
   - Uploaded CSV for bulk user creation
 
+---
 
-**2. Password Policies**
 
-- Configured password complexity and expiration policies
+**2. Group Management**
+### ✅ Create Microsoft 365 Group
 
-- Tested policy enforcement with sample users
+* Created group **Project23**
+* Added description and assigned membership type
+* Added internal user as member
+
+### ✅ Create Security Group (Dynamic Membership)
+
+* Created **Guest Users** security group
+* Configured dynamic rule:
+
+  * `userType = Guest`
+* Automatically populated guest users
+
+### ✅ Add Users to Groups
+
+* Added external user to Project23 group
+* Practised adding membership:
+
+  * From group settings
+  * From user profile
+
+### ✅ Assign Group Owners
+
+* Added group owner for Project23
+* Verified ownership permissions
+
+### ✅ Assign License to Group
+
+* Assigned Microsoft 365 license to group
+* Applied licenses automatically to all group members
+
+---
+
+
 
 **3. Multi-Factor Authentication (MFA)**
 
