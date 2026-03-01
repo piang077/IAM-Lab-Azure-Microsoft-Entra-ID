@@ -143,10 +143,10 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 
 ---
 
-## 5. Multi-Factor Authentication (MFA) Lab
+## 5. Multi-Factor Authentication (MFA) 
 ### Enable / Disable Per-User MFA
 - Opened Microsoft Entra Admin Center and navigated to **Identity → Users → All users → Per-user MFA**  
-- Selected user **Bhogeswar Kalita**  
+- Selected user **Test**  
 - Enabled MFA for the selected user  
 - Verified status shows **Enforced** next to the user
 
