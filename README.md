@@ -143,6 +143,36 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 
 ---
 
+## 5. Multi-Factor Authentication (MFA) Lab
+### Enable / Disable Per-User MFA
+- Opened Microsoft Entra Admin Center and navigated to **Identity → Users → All users → Per-user MFA**  
+- Selected user **Bhogeswar Kalita**  
+- Enabled MFA for the selected user  
+- Verified status shows **Enforced** next to the user
+
+---
+
+### Review MFA Service Settings
+- Opened **Service settings** within Per-user MFA  
+- Reviewed configuration options:  
+  - **App passwords** – allow legacy apps to bypass MFA  
+  - **Trusted IPs** – allow bypass for known safe IP ranges  
+  - **Verification options** – select allowed second-factor methods  
+  - **Remember MFA on trusted device** – set duration for trusted devices  
+- Discarded any changes (no modifications applied in this lab)
+
+---
+
+### Configure MFA Account Lockout
+- Navigated to **Protection → Multifactor authentication → Account lockout**  
+- Configured lockout values:  
+  - Number of MFA denials to trigger account lockout: 3  
+  - Minutes until account lockout counter is reset: 180  
+  - Minutes until account is automatically unblocked: 15  
+- Saved configuration  
+- Reviewed additional options: Fraud alert, block/unblock users, notifications
+
+---
 
 
 # Outcome
