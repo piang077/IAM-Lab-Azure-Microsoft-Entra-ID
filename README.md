@@ -19,51 +19,33 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 
 **Lab Tasks**
 
-**1. User Management**
+### Create New User
+- Created a new internal user account in Microsoft Entra Admin Center
+- Configured username, display name, and profile properties
+- Enabled account and configured usage location
+- Verified login and completed MFA setup
 
-- Task 1: Create a New User
+### Assign License
+- Accessed Microsoft 365 Admin Center
+- Assigned **Microsoft Power Automate Free** license to user
 
-  - Logged into Microsoft Entra Admin Center
+### Invite External User
+- Invited guest user via email
+- Added external collaborator to tenant
+- Sent onboarding message
 
-  - Created a new internal user account
+### Assign Roles (RBAC)
+- Assigned directory roles to user
+- Practised role assignment using:
+  - User profile method
+  - Roles & Admins section
+- Configured eligible and active role assignments
 
-  - Set username, display name, and user details
-
-  - Enabled account and set usage location
-
-  - Logged in as the new user to confirm access and MFA setup
-- **[Screenshots](https://github.com/piang077/IAM-Lab-Azure-Microsoft-Entra-ID/tree/main/Lab1)**
-
-
-- Task 2: Assign License
-
-  - Opened Microsoft 365 Admin Center
-
-  - Selected available license (Power Automate Free)
-
-  - Assigned license to the created user
-
-- Task 3: Invite External User
-
-  - Invited a guest/external user using email
-
-  - Sent invitation message
-
-  - Added external collaborator to tenant
-
-- Task 4: Assign Roles
-
-  - Assigned Azure role to internal user
-
-  - Used role-based access control (RBAC)
-
-- Task 5: Bulk Import Users
-
-  - Downloaded CSV template
-
-  - Edited user details in file
-
-  - Uploaded CSV for bulk user creation
+### Bulk Import Users
+- Downloaded bulk user CSV template
+- Edited user details
+- Uploaded CSV file for bulk account creation
+- Verified successful user provisioning
 
 ---
 
