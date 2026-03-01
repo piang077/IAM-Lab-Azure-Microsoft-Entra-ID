@@ -173,12 +173,30 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 - Reviewed additional options: Fraud alert, block/unblock users, notifications
 
 ---
+## 6. Conditional Access Policy Lab
 
+
+### Create Conditional Access Policy
+- Opened Microsoft Entra Admin Center → **Protection → Conditional Access**
+- Created new policy **“Block Test from using AAD Reporting”**
+- Assigned **Test** as included user  
+- Excluded admin user to prevent accidental lockout
+- Targeted **AAD Reporting app** as the resource
+- Configured **Access control → Block access**
+- Enabled policy (**On**) and saved
+
+---
+
+### Perform What If Analysis
+- Opened **What If** tool in Conditional Access
+- Selected user **Test** and app **AAD**
+- Verified policy blocks access
+- Tested with **Office 365 app** to confirm policy does not apply
+
+---
 
 # Outcome
 
 - Applied hands-on cloud IAM skills relevant to modern enterprise security
 
 - Demonstrated user management, policy configuration, and secure access practices
-
-- Produced well-documented methodology and screenshots suitable for professional review
