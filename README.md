@@ -102,40 +102,31 @@ The lab was conducted in a cloud trial environment, providing hands-on experienc
 * Applied licenses automatically to all group members
 
 ---
+## Password Protection & Smart Lockout
+
+### View & Configure Lock Settings
+- Opened Microsoft Entra Admin Center and navigated to **Authentication methods → Password protection**
+- Reviewed current **lockout threshold** and **duration** values
+
+### Configure Custom Smart Lockout
+- Set **Lockout threshold**: 5 failed login attempts
+- Set **Lockout duration**: 30 seconds
+- Enabled **custom banned password list**
+
+### Add Banned Passwords
+- Added the following to the banned list:
+  - Contoso
+  - London
+  - Widget
+
+### Enforce Policy
+- Set **Mode** to **Enforced**
+- Saved configuration
+
+---
 
 
 
-**3. Multi-Factor Authentication (MFA)**
-
-- Enabled MFA for selected users
-
-- Tested MFA login flow
-
-- Documented challenges and outcomes
-
-**4. Self-Service Password Reset (SSPR)**
-
-- Enabled SSPR for all users
-
-- Tested reset workflow and email/phone verification
-
-- Ensured secure configuration
-
-**5. Conditional Access**
-
-- Created policies to enforce MFA based on location, device, or group
-
-- Tested policy impact on different users
-
-- Documented any exceptions or issues
-
-**6. Auditing and Access Testing**
-
-- Reviewed sign-in logs for suspicious activity
-
-- Checked policy compliance for users and groups
-
-- Documented results and recommended improvements
 
 # Outcome
 
